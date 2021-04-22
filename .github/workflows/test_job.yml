@@ -1,11 +1,8 @@
 name: Python package
 
 on: 
-  - push:
-    branches:
-        - master
-
-  - schedule:
+  push:
+  schedule:
     - cron: "0 0 * * *"
 
 
